@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : PathXML.xml
+    Created on : September 12, 2011, 3:09 PM
+    Author     : smp
+    Description:
+        Purpose of the document follows.
+-->
+
+
+<!-- path for LINUX -->
+
+
+
+<path>
+    <repository_path>
+/home/smp/Repository/
+    </repository_path>
+    <log_path>
+        /home/smp/
+    </log_path>
+    <swftool_path>
+        C:\\Program Files (x86)\\SWFTools\\
+    </swftool_path>
+</path>
+
+
+
+<!-- path for WINDOWS -->
+<!--
+<path>
+    <repository_path>
+C:\Repository\
+    </repository_path>
+    <log_path>
+        C:\
+    </log_path>
+    <swftool_path>
+        C:\\Program Files (x86)\\SWFTools\\pdf2swf
+    </swftool_path>
+</path>
+
+
+-->

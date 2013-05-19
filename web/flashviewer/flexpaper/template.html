@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Example of FlexPaper</title>
+<style type="text/css">
+	
+	/* hide from ie on mac \*/
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	#flashcontent {
+		height: 100%;
+	}
+	/* end hide */
+
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #000000;
+	}
+
+</style>
+
+</head>
+<body>
+  <form>
+  &nbsp;
+
+  </form>
+  <div id="flashcontent">
+  </div>
+  
+  <script type="text/javascript" src="/SMPDocMan/flashviewer/flexpaper/js/swfobject/swfobject.js"></script>
+  <script type="text/javascript">
+  window.onload = function()
+  {
+      var s=<%=session%>
+    var params = {
+      SwfFile : "/SMPDocMan/swf/730-5027.swf",
+	  Scale : 1.0
+    }
+    
+ 
+swfobject.embedSWF("/SMPDocMan/flashviewer/flexpaper/FlexPaperViewer.swf","flashcontent","100%","100%","9.0.0","/SMPDocMan/flashviewer/flexpaper/js/swfobject/expressInstall.swf", params);
+    parent.frames[0].document.body.style.overflow='hidden';
+  }
+  </script>
+</body>
+</html>

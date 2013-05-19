@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/!svn/ver/30/eDocs/src/java/com/smp/session
+END
+SchemeFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/30/eDocs/src/java/com/smp/session/SchemeFacade.java
+END
+MasterFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/!svn/ver/30/eDocs/src/java/com/smp/session/MasterFacade.java
+END
+AbstractFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/30/eDocs/src/java/com/smp/session/AbstractFacade.java
+END
+UserroleFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/!svn/ver/30/eDocs/src/java/com/smp/session/UserroleFacade.java
+END
+LoginFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/!svn/ver/30/eDocs/src/java/com/smp/session/LoginFacade.java
+END
